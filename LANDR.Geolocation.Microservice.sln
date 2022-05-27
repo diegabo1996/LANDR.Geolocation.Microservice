@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LANDR.Geolocation.Microservice", "LANDR.Geolocation.Microservice\LANDR.Geolocation.Microservice.csproj", "{9D77A722-FA6D-422A-A152-4DF5D3CC30B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LANDR.Geolocation.Microservice.Models", "LANDR.Geolocation.Microservice.Models\LANDR.Geolocation.Microservice.Models.csproj", "{DA82B843-3060-409B-9F9C-C469FE612488}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LANDR.Geolocation.Microservice.GeoIP", "LANDR.Geolocation.Microservice.GeoIP\LANDR.Geolocation.Microservice.GeoIP.csproj", "{6616BA29-12CC-4C36-BCF4-A47E2C18E066}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LANDR.Geolocation.Microservice.Tests", "LANDR.Geolocation.Microservice.Tests\LANDR.Geolocation.Microservice.Tests.csproj", "{4AD10983-E964-4DA0-8C13-64F694046653}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LANDR.Geolocation.Microservice.Executor", "LANDR.Geolocation.Microservice.Executor\LANDR.Geolocation.Microservice.Executor.csproj", "{5B6E104D-DEEC-4E2C-A7D3-491F1F4AE8BB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9D77A722-FA6D-422A-A152-4DF5D3CC30B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D77A722-FA6D-422A-A152-4DF5D3CC30B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D77A722-FA6D-422A-A152-4DF5D3CC30B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D77A722-FA6D-422A-A152-4DF5D3CC30B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA82B843-3060-409B-9F9C-C469FE612488}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA82B843-3060-409B-9F9C-C469FE612488}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA82B843-3060-409B-9F9C-C469FE612488}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA82B843-3060-409B-9F9C-C469FE612488}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6616BA29-12CC-4C36-BCF4-A47E2C18E066}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6616BA29-12CC-4C36-BCF4-A47E2C18E066}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6616BA29-12CC-4C36-BCF4-A47E2C18E066}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6616BA29-12CC-4C36-BCF4-A47E2C18E066}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4AD10983-E964-4DA0-8C13-64F694046653}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AD10983-E964-4DA0-8C13-64F694046653}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AD10983-E964-4DA0-8C13-64F694046653}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AD10983-E964-4DA0-8C13-64F694046653}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B6E104D-DEEC-4E2C-A7D3-491F1F4AE8BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B6E104D-DEEC-4E2C-A7D3-491F1F4AE8BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B6E104D-DEEC-4E2C-A7D3-491F1F4AE8BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B6E104D-DEEC-4E2C-A7D3-491F1F4AE8BB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8020672F-5FB7-40A3-9B6B-2D6AB904C6E8}
+	EndGlobalSection
+EndGlobal
