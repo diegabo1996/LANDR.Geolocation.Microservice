@@ -3,15 +3,20 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.32112.339
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LANDR.Geolocation.Microservice", "LANDR.Geolocation.Microservice\LANDR.Geolocation.Microservice.csproj", "{9D77A722-FA6D-422A-A152-4DF5D3CC30B7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LANDR.Geolocation.Microservice", "LANDR.Geolocation.Microservice\LANDR.Geolocation.Microservice.csproj", "{9D77A722-FA6D-422A-A152-4DF5D3CC30B7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LANDR.Geolocation.Microservice.Models", "LANDR.Geolocation.Microservice.Models\LANDR.Geolocation.Microservice.Models.csproj", "{DA82B843-3060-409B-9F9C-C469FE612488}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LANDR.Geolocation.Microservice.Models", "LANDR.Geolocation.Microservice.Models\LANDR.Geolocation.Microservice.Models.csproj", "{DA82B843-3060-409B-9F9C-C469FE612488}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LANDR.Geolocation.Microservice.GeoIP", "LANDR.Geolocation.Microservice.GeoIP\LANDR.Geolocation.Microservice.GeoIP.csproj", "{6616BA29-12CC-4C36-BCF4-A47E2C18E066}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LANDR.Geolocation.Microservice.GeoIP", "LANDR.Geolocation.Microservice.GeoIP\LANDR.Geolocation.Microservice.GeoIP.csproj", "{6616BA29-12CC-4C36-BCF4-A47E2C18E066}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LANDR.Geolocation.Microservice.Tests", "LANDR.Geolocation.Microservice.Tests\LANDR.Geolocation.Microservice.Tests.csproj", "{4AD10983-E964-4DA0-8C13-64F694046653}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LANDR.Geolocation.Microservice.Tests", "LANDR.Geolocation.Microservice.Tests\LANDR.Geolocation.Microservice.Tests.csproj", "{4AD10983-E964-4DA0-8C13-64F694046653}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LANDR.Geolocation.Microservice.Executor", "LANDR.Geolocation.Microservice.Executor\LANDR.Geolocation.Microservice.Executor.csproj", "{5B6E104D-DEEC-4E2C-A7D3-491F1F4AE8BB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LANDR.Geolocation.Microservice.Executor", "LANDR.Geolocation.Microservice.Executor\LANDR.Geolocation.Microservice.Executor.csproj", "{5B6E104D-DEEC-4E2C-A7D3-491F1F4AE8BB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B948010C-A44E-47D4-A769-32003A36334F}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

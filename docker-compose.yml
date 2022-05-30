@@ -1,0 +1,8 @@
+services: 
+  geoservice:
+    build: .
+    environment: 
+      - "ConfigurationMicroservice:OnlineService=false"
+    image: landrgeolocationmicroservice:latest
+    ports: 
+      - "10071:80"
