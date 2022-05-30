@@ -68,7 +68,26 @@ Or just run this command:
 
 docker run -it -e ConfigurationMicroservice:OnlineService={true_OR_false} -e MaxMind:AccountId="{YOUR_MAXMIND_ACCOUNT_ID}" -e MaxMind:LicenseKey="{YOUR_MAXMIND_LICENSE_KEY}" -p "443:80" lbot96/landrgeolocationmicroservice:latest
 
-NOTE: Replace the enviroment variables for your personal settings before execute the command.
+NOTE: Replace the enviroment variables with your personal settings before execute the command.
+
+Docker Compose
+-------------------------------------
+
+The solution include a Docker Compose file to edit on root.
+
+Just modify and execute:
+
+![image](https://user-images.githubusercontent.com/58711247/171037608-041b6b75-893b-49b1-b117-5057738efbfa.png)
+
+You can execute the command:
+
+docker compose -f docker-compose.yml run "geoservice"
+
+or 
+
+docker compose up
+
+NOTE: Replace the enviroment variables with your personal settings before execute the command.
 
 LANDR Geolocation Service Demo
 -------------------------------------
