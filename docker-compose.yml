@@ -7,4 +7,4 @@ services:
       - "MaxMind:LicenseKey={LICENSE_KEY}"
     image: landrgeolocationmicroservice:latest
     ports: 
-      - "10071:80"
+      - "10075:80"

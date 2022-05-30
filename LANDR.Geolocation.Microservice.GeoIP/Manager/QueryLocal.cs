@@ -23,11 +23,11 @@ namespace LANDR.Geolocation.Microservice.GeoIP.Manager
 
         public async Task<IEnumerable<IPData>> GetIPsData(string[] IPs)
         {
-            IEnumerable<IPData> iPsData = new List<IPData>();
+            List<IPData> iPsData = new List<IPData>();
             foreach (string IP in IPs)
             {
                 var data = await Executor.Execute(IP);
-                iPsData.Append(data);
+                iPsData.Add(data);
             }
             return iPsData;
         }
