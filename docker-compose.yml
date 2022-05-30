@@ -3,6 +3,8 @@ services:
     build: .
     environment: 
       - "ConfigurationMicroservice:OnlineService=false"
+      - "MaxMind:AccountId={ACCOUNT_ID}"
+      - "MaxMind:LicenseKey={LICENSE_KEY}"
     image: landrgeolocationmicroservice:latest
     ports: 
       - "10071:80"
