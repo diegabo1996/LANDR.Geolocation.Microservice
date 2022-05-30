@@ -1,0 +1,8 @@
+services: 
+  geoservice:
+    build: .
+    environment: 
+      - "MaxMind:AccountId=723864"
+    image: landrgeolocationmicroservice:latest
+    ports: 
+      - "80:10071"
